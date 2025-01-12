@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="options.css">
+  <title>Bike Wash Options</title>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <a href="#" class="logo">Bike Wash</a>
+    <ul>
+      <li><a href="#basic">Basic Wash</a></li>
+      <li><a href="#premium">Premium Wash</a></li>
+      <li><a href="#deluxe">Deluxe Wash</a></li>
+    </ul>
+    <span class="hamburguer">&#9776;</span>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Choose Your Bike Wash</h1>
+      <p>Professional cleaning to keep your bike in top condition.</p>
+    </div>
+  </section>
+
+  <!-- Bike Wash Options Section -->
+  <section class="services">
+    <h2>Our Wash Packages</h2>
+    <div class="service-cards">
+
+      <!-- Basic Wash -->
+      <div class="service-card" id="basic">
+        <i class="fas fa-bicycle"></i>
+        <h3>Pitstop</h3>
+        <p>Includes a thorough rinse, soap application, and wipe down. Just enough to leave you satasied but more is wanted and you know it. Done quickly and perfect if you are in a rush</p>
+        <p><strong>Price: $15</strong></p>
+        <a class="btn-primary" href="https://venmo.com/your-venmo-link-basic" target="_blank">Pay with Venmo</a>
+      </div>
+
+      <!-- Premium Wash -->
+      <div class="service-card" id="premium">
+        <i class="fas fa-tools"></i>
+        <h3>Premium wash</h3>
+        <p>Pitstop + chain cleaning and lubrication. We use only the best lube for our bikes</p>
+        <p><strong>Price: $25</strong></p>
+        <a class="btn-primary" href="https://venmo.com/your-venmo-link-premium" target="_blank">Pay with Venmo</a>
+      </div>
+
+      <!-- Deluxe Wash -->
+      <div class="service-card" id="deluxe">
+        <i class="fas fa-star"></i>
+        <h3>"Just so fresh so clean"</h3>
+        <p>Premium wash + wheel detailing and protective coating. Done by extra experienced minors with prioraty in mind. The best option by far, done with expensive equiptment+materials</p>        <p><strong>Price: $40</strong></p>
+        <a class="btn-primary" href="https://venmo.com/your-venmo-link-deluxe" target="_blank">Pay with Venmo</a>
+      </div>
+    
+    
+  
+    </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 asstroid.</p>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelector('.hamburguer').addEventListener('click', () => {
+      document.querySelector('header ul').classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
